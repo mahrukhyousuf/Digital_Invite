@@ -3,13 +3,13 @@ import { useState, useEffect, useRef } from "react";
 const STYLES = `
   @font-face {
     font-family: 'AmoresaAged';
-    src: url('/src/assets/fonts/AmoresaAged.otf') format('opentype');
+    src: url('/AmoresaAged.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'Symphony';
-    src: url('/src/assets/fonts/Symphony.otf') format('opentype');
+    src: url('/Symphony.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
   }
