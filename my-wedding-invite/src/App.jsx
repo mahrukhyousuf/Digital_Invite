@@ -482,7 +482,7 @@ export default function App() {
             <p style={{
               fontFamily: "'IM Fell English', serif",
               fontSize: "clamp(9px,1.5vw,11px)", letterSpacing: "0.2em",
-              color: "#5c3d2e", textTransform: "uppercase",
+              color: "#977E62", textTransform: "uppercase",
               animation: "fadeInUp 1s ease 0.3s both", marginBottom: 20,
             }}>
               In the Name of Allah (SWT) the Most Beneficent
@@ -566,7 +566,7 @@ export default function App() {
             display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
             padding: "60px 20px",
           }}>
-            <div style={{ position: "absolute", inset: 0, backgroundImage: "url('/page1.jpg')", backgroundSize: "cover", backgroundPosition: "center bottom" }} />
+            <div style={{ position: "absolute", inset: 0, backgroundImage: "url('/page5.jpg')", backgroundSize: "cover", backgroundPosition: "center bottom" }} />
             <div style={{ position: "absolute", inset: 0, background: "rgba(20,12,5,0.25)" }} />
             <div style={{ position: "relative", zIndex: 2, display: "flex", flexDirection: "column", alignItems: "center" }}>
               <ArchFrame>
@@ -595,7 +595,7 @@ export default function App() {
                     fontSize: "clamp(20px,4vw,28px)",
                     color: "#5c3d2e", fontWeight: 400, letterSpacing: "0.1em",
                   }}>
-                    31st May 2026
+                    31st May 2026 
                   </p>
                 </div>
               </ArchFrame>
