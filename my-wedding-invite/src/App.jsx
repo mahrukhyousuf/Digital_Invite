@@ -528,7 +528,7 @@ export default function App() {
                 top: "52%", left: "50%",
                 transform: "translate(-50%, -50%)",
                 fontFamily: "'Symphony', serif",
-                fontSize: "clamp(18px,4vw,34px)",
+                fontSize: "clamp(28px,7vw,52px)",
                 color: "#5c3d2e",
                 opacity: envelopeOpen ? 0 : 0.85,
                 transition: "opacity 0.4s ease",
@@ -545,7 +545,7 @@ export default function App() {
               fontFamily: "'IM Fell English', serif",
               fontStyle: "italic",
               fontSize: "clamp(9px,1.5vw,11px)", letterSpacing: "0.25em",
-              color: "#5c3d2e", textTransform: "uppercase",
+              color: "#FFFFFF", textTransform: "uppercase",
               animation: "fadeInUp 1s ease 1.8s both, shimmer 2.5s ease 2.8s infinite",
             }}>
               Tap Envelope to Open
