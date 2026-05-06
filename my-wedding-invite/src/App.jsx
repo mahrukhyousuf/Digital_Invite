@@ -509,7 +509,7 @@ export default function App() {
                 animation: "envelopeReveal 1s ease 1s both",
                 marginBottom: 28,
                 cursor: "pointer",
-                width: "min(320px,80vw)",
+                width: "min(240px,60vw)",
                 position: "relative",
                 filter: "drop-shadow(0 16px 48px rgba(80,50,30,0.35))",
                 transition: "transform 0.3s ease",
