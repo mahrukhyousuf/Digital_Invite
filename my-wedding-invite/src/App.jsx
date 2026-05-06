@@ -481,7 +481,7 @@ export default function App() {
             {/* Bismillah */}
             <p style={{
               fontFamily: "'IM Fell English', serif",
-              fontSize: "clamp(10px,2.2vw,13px)", letterSpacing: "0.35em",
+              fontSize: "clamp(9px,1.5vw,11px)", letterSpacing: "0.2em",
               color: "#5c3d2e", textTransform: "uppercase",
               animation: "fadeInUp 1s ease 0.3s both", marginBottom: 20,
             }}>
@@ -491,9 +491,10 @@ export default function App() {
             {/* Jannat & Aqib — AmoresaAged */}
             <h1 style={{
               fontFamily: "'AmoresaAged', serif",
-              fontSize: "clamp(52px,13vw,110px)",
+              fontSize: "clamp(36px,8vw,72px)",
               color: "#3d2a1e",
               lineHeight: 1.05,
+              fontWeight: 400,
               textShadow: "0 2px 20px rgba(0,0,0,0.15)",
               animation: "fadeInUp 1.2s ease 0.6s both",
               marginBottom: 36,
@@ -527,7 +528,7 @@ export default function App() {
                 top: "52%", left: "50%",
                 transform: "translate(-50%, -50%)",
                 fontFamily: "'Symphony', serif",
-                fontSize: "clamp(28px,7vw,52px)",
+                fontSize: "clamp(18px,4vw,34px)",
                 color: "#5c3d2e",
                 opacity: envelopeOpen ? 0 : 0.85,
                 transition: "opacity 0.4s ease",
@@ -543,7 +544,7 @@ export default function App() {
             <p style={{
               fontFamily: "'IM Fell English', serif",
               fontStyle: "italic",
-              fontSize: "clamp(10px,2vw,13px)", letterSpacing: "0.45em",
+              fontSize: "clamp(9px,1.5vw,11px)", letterSpacing: "0.25em",
               color: "#5c3d2e", textTransform: "uppercase",
               animation: "fadeInUp 1s ease 1.8s both, shimmer 2.5s ease 2.8s infinite",
             }}>
