@@ -623,7 +623,7 @@ export default function App() {
               {/* J & A monogram */}
               <div style={{
                 fontFamily: "'Symphony', serif",
-                fontSize: "clamp(52px,12vw,88px)",
+                fontSize: "clamp(49px,12vw,88px)",
                 color: "#b07a6e", lineHeight: 0.9, marginBottom: 28,
               }}>
                 J &amp; A
@@ -631,7 +631,7 @@ export default function App() {
 
               <p style={{
                 fontFamily: "'IM Fell English', serif", fontStyle: "italic",
-                fontSize: "clamp(13px,2vw,15px)", lineHeight: 2,
+                fontSize: "clamp(10px,2vw,15px)", lineHeight: 2,
                 color: "#7a5a4a", maxWidth: 500, margin: "0 auto 40px",
               }}>
                 May the Almighty grant this couple all the success in their marriage and bestow upon them good Health, Wealth, Imaan and Guidance to follow the straight path as shown. Ameen.
