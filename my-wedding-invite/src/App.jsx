@@ -544,7 +544,7 @@ export default function App() {
             <p style={{
               fontFamily: "'IM Fell English', serif",
               fontStyle: "italic",
-              fontSize: "clamp(9px,1.5vw,11px)", letterSpacing: "0.25em",
+              fontSize: "clamp(11px,2vw,14px)", letterSpacing: "0.25em",
               color: "#FFFFFF", textTransform: "uppercase",
               animation: "fadeInUp 1s ease 1.8s both, shimmer 2.5s ease 2.8s infinite",
             }}>
@@ -602,7 +602,7 @@ export default function App() {
 
               {/* Scroll cue */}
               <div style={{ marginTop: 48, display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
-                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 11, letterSpacing: "0.45em", color: "#c4a882", textTransform: "uppercase" }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, letterSpacing: "0.45em", color: "#c4a882", textTransform: "uppercase" }}>
                   Scroll
                 </p>
                 <div style={{ width: 1, height: 50, background: "linear-gradient(180deg, #c4a882, transparent)", animation: "scrollBounce 2s ease infinite" }} />
@@ -644,6 +644,11 @@ export default function App() {
               </p>
               <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2.2vw,17px)", color: "#7a5a4a", marginBottom: 28 }}>
                 (Late) Mr. &amp; Mrs. Sheikh Muhammad Ramzan
+              </p>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2vw,15px)", color: "#7a5a4a", lineHeight: 1.9, marginBottom: 28, maxWidth: 480, margin: "0 auto 28px" }}>
+                would like to enhance the beauty of the occasion by inviting you at the{" "}
+                <span style={{ fontWeight: 700, fontStyle: "normal" }}>Wedding Ceremony</span>
+                {" "}of their beloved daughter
               </p>
 
               {/* Jannat — Symphony only for the name */}
