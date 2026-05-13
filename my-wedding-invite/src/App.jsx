@@ -455,7 +455,7 @@ export default function App() {
       <Petals />
 
       {/* ══════════════════════════════
-          PAGE 1 — COVER
+          PAGE 1 — COVERS
       ══════════════════════════════ */}
       {(phase === "cover" || phase === "opening") && (
         <div style={{
