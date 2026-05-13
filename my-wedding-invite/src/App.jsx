@@ -478,8 +478,8 @@ export default function App() {
             {/* Bismillah */}
             <p style={{
               fontFamily: "'IM Fell English', serif",
-              fontSize: "clamp(11px,1.8vw,13px)", letterSpacing: "0.2em",
-              color: "#977E62", textTransform: "uppercase",
+              fontSize: "clamp(13px,1.8vw,13px)", letterSpacing: "0.2em",
+              color: "#FFFFFF", textTransform: "uppercase",
               animation: "fadeInUp 1s ease 0.3s both", marginBottom: 20,
             }}>
               In the Name of Allah (SWT) the Most Beneficent
@@ -540,7 +540,7 @@ export default function App() {
             <p style={{
               fontFamily: "'IM Fell English', serif",
               fontStyle: "italic",
-              fontSize: "clamp(13px,2.2vw,16px)", letterSpacing: "0.25em",
+              fontSize: "clamp(16px,2.2vw,16px)", letterSpacing: "0.25em",
               color: "#FFFFFF", textTransform: "uppercase",
               animation: "fadeInUp 1s ease 1.8s both, shimmer 2.5s ease 2.8s infinite",
             }}>
@@ -569,7 +569,7 @@ export default function App() {
                 <div style={{ textAlign: "center" }}>
                   <h2 style={{
                     fontFamily: "'Symphony', serif",
-                    fontSize: "clamp(44px,10vw,82px)",
+                    fontSize: "clamp(48px,10vw,82px)",
                     color: "#5c3d2e", lineHeight: 1.05, marginBottom: 20,
                   }}>
                     Save our<br />Date
@@ -585,7 +585,7 @@ export default function App() {
                   </p>
                   <p style={{
                     fontFamily: "'IM Fell English', serif",
-                    fontSize: "clamp(24px,4.5vw,32px)",
+                    fontSize: "clamp(27px,4.5vw,32px)",
                     color: "#5c3d2e", fontWeight: 400, letterSpacing: "0.1em",
                   }}>
                     31st May 2026
@@ -595,7 +595,7 @@ export default function App() {
 
               {/* Scroll cue */}
               <div style={{ marginTop: 48, display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
-                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16, letterSpacing: "0.45em", color: "#c4a882", textTransform: "uppercase" }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 19, letterSpacing: "0.45em", color: "#c4a882", textTransform: "uppercase" }}>
                   Scroll
                 </p>
                 <div style={{ width: 1, height: 50, background: "linear-gradient(180deg, #c4a882, transparent)", animation: "scrollBounce 2s ease infinite" }} />
@@ -616,7 +616,7 @@ export default function App() {
               {/* J & A monogram */}
               <div style={{
                 fontFamily: "'Symphony', serif",
-                fontSize: "clamp(49px,12vw,88px)",
+                fontSize: "clamp(46px,12vw,88px)",
                 color: "#b07a6e", lineHeight: 0.9, marginBottom: 28,
               }}>
                 J &amp; A
@@ -624,7 +624,7 @@ export default function App() {
 
               <p style={{
                 fontFamily: "'IM Fell English', serif", fontStyle: "italic",
-                fontSize: "clamp(13px,2vw,15px)", lineHeight: 2,
+                fontSize: "clamp(15px,2vw,15px)", lineHeight: 2,
                 color: "#7a5a4a", maxWidth: 500, margin: "0 auto 40px",
               }}>
                 May the Almighty grant this couple all the success in their marriage and bestow upon them good Health, Wealth, Imaan and Guidance to follow the straight path as shown. Ameen.
@@ -632,35 +632,35 @@ export default function App() {
 
               <div style={{ height: "0.5px", background: "linear-gradient(90deg,transparent,#c4a882,transparent)", marginBottom: 36 }} />
 
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2vw,15px)", letterSpacing: "0.3em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(16px,2vw,15px)", letterSpacing: "0.3em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
                 The Family Members of
               </p>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(15px,2.4vw,19px)", color: "#7a5a4a", marginBottom: 16 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(18px,2.4vw,19px)", color: "#7a5a4a", marginBottom: 16 }}>
                 (Late) Mr. &amp; Mrs. Sheikh Muhammad Ramzan
               </p>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2.2vw,16px)", color: "#7a5a4a", lineHeight: 1.9, maxWidth: 480, margin: "0 auto 28px" }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(17px,2.2vw,16px)", color: "#7a5a4a", lineHeight: 1.9, maxWidth: 480, margin: "0 auto 28px" }}>
                 would like to enhance the beauty of the occasion by inviting you at the{" "}
                 <span style={{ fontWeight: 700, fontStyle: "normal" }}>Wedding Ceremony</span>
                 {" "}of their beloved daughter
               </p>
 
               {/* Jannat — Symphony */}
-              <h3 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(40px,9vw,72px)", color: "#5c3d2e", lineHeight: 1.1, marginBottom: 6 }}>
+              <h3 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(43px,9vw,72px)", color: "#5c3d2e", lineHeight: 1.1, marginBottom: 6 }}>
                 Jannat Ali
               </h3>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2.2vw,16px)", color: "#8a6040", fontWeight: 500, marginBottom: 32 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(17px,2.2vw,16px)", color: "#8a6040", fontWeight: 500, marginBottom: 32 }}>
                 D/o. Mr. &amp; Mrs. Muhammad Ali Sheikh
               </p>
 
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2vw,17px)", color: "#c4a882", marginBottom: 24, letterSpacing: "0.3em" }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2vw,17px)", color: "#b07a6e", marginBottom: 24, letterSpacing: "0.3em" }}>
                 — with —
               </p>
 
               {/* Aqib — Symphony */}
-              <h3 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(40px,9vw,72px)", color: "#5c3d2e", lineHeight: 1.1, marginBottom: 6 }}>
+              <h3 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(43px,9vw,72px)", color: "#5c3d2e", lineHeight: 1.1, marginBottom: 6 }}>
                 Aqib Nawaz
               </h3>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2.2vw,16px)", color: "#8a6040", fontWeight: 500 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(17px,2.2vw,16px)", color: "#8a6040", fontWeight: 500 }}>
                 S/o. Mr. &amp; Mrs. Nawaz Ahmed
               </p>
             </Section>
@@ -709,7 +709,7 @@ export default function App() {
             <div style={{ position: "absolute", inset: 0, backgroundImage: "url('/page4.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
             <div style={{ position: "absolute", inset: 0, background: "rgba(248,241,232,0.72)" }} />
             <Section style={{ position: "relative", zIndex: 2, textAlign: "center" }}>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 32 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 32 }}>
                 Mark Your Calendar
               </p>
               <div style={{
@@ -727,20 +727,20 @@ export default function App() {
                   { bottom: -1, right: -1, borderBottom: "2px solid #b07a6e", borderRight: "2px solid #b07a6e" },
                 ].map((s, i) => <div key={i} style={{ position: "absolute", width: 24, height: 24, ...s }} />)}
 
-                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(11px,2vw,14px)", letterSpacing: "0.45em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2vw,14px)", letterSpacing: "0.45em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
                   Sunday
                 </p>
                 <div style={{
                   fontFamily: "'AmoresaAged', serif",
-                  fontSize: "clamp(80px,20vw,160px)",
+                  fontSize: "clamp(82px,20vw,160px)",
                   color: "#5c3d2e", lineHeight: 0.85,
                 }}>
                   31
                 </div>
-                <p style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(18px,3.5vw,28px)", letterSpacing: "0.4em", color: "#b07a6e", textTransform: "uppercase", marginTop: 12, marginBottom: 4 }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(20px,3.5vw,28px)", letterSpacing: "0.4em", color: "#b07a6e", textTransform: "uppercase", marginTop: 12, marginBottom: 4 }}>
                   May
                 </p>
-                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2vw,18px)", color: "#8a6040", opacity: 0.7, letterSpacing: "0.2em" }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(16px,2vw,18px)", color: "#8a6040", opacity: 0.7, letterSpacing: "0.2em" }}>
                   2026
                 </p>
               </div>
@@ -756,18 +756,18 @@ export default function App() {
             <div style={{ position: "absolute", inset: 0, backgroundImage: "url('/page5.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
             <div style={{ position: "absolute", inset: 0, background: "rgba(15,8,3,0.55)" }} />
             <Section style={{ position: "relative", zIndex: 2, textAlign: "center", maxWidth: 560, width: "100%" }}>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16, letterSpacing: "0.5em", color: "#c4a882", textTransform: "uppercase", marginBottom: 16 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 17, letterSpacing: "0.5em", color: "#c4a882", textTransform: "uppercase", marginBottom: 16 }}>
                 Location
               </p>
               <svg viewBox="0 0 40 50" style={{ width: 36, opacity: 0.7, marginBottom: 20 }} xmlns="http://www.w3.org/2000/svg">
                 <path d="M20,2 C11,2 4,9 4,18 C4,30 20,48 20,48 C20,48 36,30 36,18 C36,9 29,2 20,2 Z" fill="none" stroke="#c4a882" strokeWidth="1.5" />
                 <circle cx="20" cy="18" r="6" fill="none" stroke="#c4a882" strokeWidth="1.5" />
               </svg>
-              <h2 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(32px,7vw,58px)", color: "#f8f1e8", lineHeight: 1.2, marginBottom: 12 }}>
+              <h2 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(34px,7vw,58px)", color: "#f8f1e8", lineHeight: 1.2, marginBottom: 12 }}>
                 Lawyer's Club<br />Banquet 'A'
               </h2>
               <div style={{ height: "0.5px", background: "linear-gradient(90deg,transparent,#c4a882,transparent)", margin: "16px auto", width: "60%" }} />
-              <p style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(13px,2.2vw,15px)", letterSpacing: "0.25em", color: "#c4a882", marginBottom: 36 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(16px,2.2vw,15px)", letterSpacing: "0.25em", color: "#c4a882", marginBottom: 36 }}>
                 11-A, Block 2 Clifton, Karachi
               </p>
               <a
@@ -803,17 +803,17 @@ export default function App() {
               <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase" }}>
                 The Celebration
               </p>
-              <h2 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(40px,8vw,72px)", color: "#5c3d2e", margin: "10px 0 20px" }}>
+              <h2 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(42px,8vw,72px)", color: "#5c3d2e", margin: "10px 0 20px" }}>
                 Baraat
               </h2>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(15px,2.4vw,18px)", lineHeight: 2, color: "#7a5a4a", maxWidth: 500, margin: "0 auto 60px" }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(17px,2.4vw,18px)", lineHeight: 2, color: "#7a5a4a", maxWidth: 500, margin: "0 auto 60px" }}>
                 The Baraat will be welcomed with the solemnization of the Nikkah, binding two hearts in faith and love. The evening will draw to a close with the Rukhsati, as Jannat begins her new journey surrounded by the prayers of her loved ones.
               </p>
 
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 18, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
                 Programme
               </p>
-              <h3 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(24px,4vw,36px)", color: "#5c3d2e", marginBottom: 44 }}>
+              <h3 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(26px,4vw,36px)", color: "#5c3d2e", marginBottom: 44 }}>
                 Evening Schedule
               </h3>
 
