@@ -206,7 +206,7 @@ const CDBox = ({ value, label }) => (
     <span style={{
       fontFamily: "'IM Fell English', serif",
       fontStyle: "italic",
-      fontSize: "clamp(11px,2vw,13px)",
+      fontSize: "clamp(12px,2vw,14px)",
       letterSpacing: "0.2em",
       color: "#c4a882",
     }}>{label}</span>
@@ -232,8 +232,8 @@ const TLItem = ({ item, isLeft, delay }) => {
     }}>
       <div style={{ textAlign: "right" }}>
         {isLeft
-          ? <span style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(10px,1.8vw,13px)", color: "#b07a6e", letterSpacing: "0.15em" }}>{item.time}</span>
-          : <span style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(17px,2.8vw,24px)", color: "#5c3d2e" }}>{item.event}</span>
+          ? <span style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(12px,2vw,15px)", color: "#b07a6e", letterSpacing: "0.15em" }}>{item.time}</span>
+          : <span style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(18px,3vw,26px)", color: "#5c3d2e" }}>{item.event}</span>
         }
       </div>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -241,8 +241,8 @@ const TLItem = ({ item, isLeft, delay }) => {
       </div>
       <div style={{ textAlign: "left" }}>
         {isLeft
-          ? <span style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(17px,2.8vw,24px)", color: "#5c3d2e" }}>{item.event}</span>
-          : <span style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(10px,1.8vw,13px)", color: "#b07a6e", letterSpacing: "0.15em" }}>{item.time}</span>
+          ? <span style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(18px,3vw,26px)", color: "#5c3d2e" }}>{item.event}</span>
+          : <span style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(12px,2vw,15px)", color: "#b07a6e", letterSpacing: "0.15em" }}>{item.time}</span>
         }
       </div>
     </div>
@@ -289,12 +289,10 @@ const RSVPSection = () => {
       display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
       padding: "80px 20px",
     }}>
-      {/* Background */}
       <div style={{ position: "absolute", inset: 0, backgroundImage: "url('/page3.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
       <div style={{ position: "absolute", inset: 0, background: "rgba(20,12,5,0.55)" }} />
 
       <div style={{ position: "relative", zIndex: 2, textAlign: "center", maxWidth: 560, width: "100%" }}>
-        {/* Ornament */}
         <svg viewBox="0 0 200 40" style={{ width: 160, opacity: 0.7, marginBottom: 8 }} xmlns="http://www.w3.org/2000/svg">
           <line x1="0" y1="20" x2="70" y2="20" stroke="#c4a882" strokeWidth="0.8" />
           <circle cx="100" cy="20" r="12" fill="none" stroke="#c4a882" strokeWidth="0.8" />
@@ -302,13 +300,13 @@ const RSVPSection = () => {
           <line x1="130" y1="20" x2="200" y2="20" stroke="#c4a882" strokeWidth="0.8" />
         </svg>
 
-        <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 11, letterSpacing: "0.4em", color: "#c4a882", textTransform: "uppercase", marginBottom: 12 }}>
+        <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, letterSpacing: "0.4em", color: "#c4a882", textTransform: "uppercase", marginBottom: 12 }}>
           You Are Cordially Invited
         </p>
         <h2 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(36px,8vw,64px)", color: "#f8f1e8", fontWeight: 400, lineHeight: 1.1, marginBottom: 6 }}>
           Will You Join Us?
         </h2>
-        <p style={{ fontFamily: "'IM Fell English', serif", fontSize: 11, letterSpacing: "0.35em", color: "#c4a882", marginBottom: 40, textTransform: "uppercase" }}>
+        <p style={{ fontFamily: "'IM Fell English', serif", fontSize: 14, letterSpacing: "0.35em", color: "#c4a882", marginBottom: 40, textTransform: "uppercase" }}>
           31st May 2026 · Karachi
         </p>
 
@@ -337,7 +335,7 @@ const RSVPSection = () => {
               }}
             />
 
-            <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 11, letterSpacing: "0.4em", color: "#c4a882", marginBottom: 14, textTransform: "uppercase" }}>
+            <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, letterSpacing: "0.4em", color: "#c4a882", marginBottom: 14, textTransform: "uppercase" }}>
               Will you attend?
             </p>
             <div style={{ display: "flex", gap: 12, justifyContent: "center", marginBottom: 24, flexWrap: "wrap" }}>
@@ -347,7 +345,7 @@ const RSVPSection = () => {
                   background: attending === opt ? "rgba(176,122,110,0.6)" : "transparent",
                   border: `1px solid ${attending === opt ? "#b07a6e" : "rgba(196,168,130,0.4)"}`,
                   color: attending === opt ? "#f8f1e8" : "#c4a882",
-                  fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 13,
+                  fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 15,
                   cursor: "pointer", transition: "all 0.3s ease",
                 }}>
                   {opt}
@@ -357,17 +355,17 @@ const RSVPSection = () => {
 
             {attending === "Joyfully Accepts" && (
               <div style={{ marginBottom: 24 }}>
-                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 11, letterSpacing: "0.4em", color: "#c4a882", marginBottom: 10, textTransform: "uppercase" }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, letterSpacing: "0.4em", color: "#c4a882", marginBottom: 10, textTransform: "uppercase" }}>
                   Number of Guests
                 </p>
                 <div style={{ display: "flex", gap: 8, justifyContent: "center" }}>
                   {["1", "2", "3", "4+"].map(n => (
                     <button key={n} onClick={() => setGuests(n)} style={{
-                      width: 40, height: 40,
+                      width: 44, height: 44,
                       background: guests === n ? "rgba(176,122,110,0.6)" : "transparent",
                       border: `1px solid ${guests === n ? "#b07a6e" : "rgba(196,168,130,0.35)"}`,
                       color: guests === n ? "#f8f1e8" : "#c4a882",
-                      fontFamily: "'IM Fell English', serif", fontSize: 14, cursor: "pointer",
+                      fontFamily: "'IM Fell English', serif", fontSize: 16, cursor: "pointer",
                       transition: "all 0.3s ease",
                     }}>{n}</button>
                   ))}
@@ -376,7 +374,7 @@ const RSVPSection = () => {
             )}
 
             {error && (
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 13, color: "#d4908a", marginBottom: 12 }}>{error}</p>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, color: "#d4908a", marginBottom: 12 }}>{error}</p>
             )}
 
             <button
@@ -386,7 +384,7 @@ const RSVPSection = () => {
                 marginTop: 8, padding: "14px 48px",
                 background: "linear-gradient(135deg, #b07a6e, #8a5a50)",
                 border: "none", color: "#f8f1e8",
-                fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 15,
+                fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 17,
                 letterSpacing: "0.2em", cursor: loading ? "not-allowed" : "pointer",
                 boxShadow: "0 4px 20px rgba(120,70,60,0.4)",
                 transition: "all 0.3s ease", opacity: loading ? 0.7 : 1,
@@ -395,7 +393,7 @@ const RSVPSection = () => {
               {loading ? "Sending..." : "Send My Response"}
             </button>
 
-            <p style={{ marginTop: 20, fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 12, color: "rgba(196,168,130,0.6)" }}>
+            <p style={{ marginTop: 20, fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, color: "rgba(196,168,130,0.6)" }}>
               Or call: 0331-2623426
             </p>
           </div>
@@ -406,10 +404,10 @@ const RSVPSection = () => {
             animation: "fadeIn 0.8s ease",
           }}>
             <div style={{ fontSize: 40, color: "#c4a882", marginBottom: 16 }}>✦</div>
-            <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 28, color: "#f8f1e8", marginBottom: 10 }}>
+            <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 30, color: "#f8f1e8", marginBottom: 10 }}>
               {attending === "Joyfully Accepts" ? "We cannot wait to see you!" : "You will be missed dearly."}
             </p>
-            <p style={{ fontFamily: "'IM Fell English', serif", fontSize: 12, letterSpacing: "0.3em", color: "#c4a882", textTransform: "uppercase" }}>
+            <p style={{ fontFamily: "'IM Fell English', serif", fontSize: 14, letterSpacing: "0.3em", color: "#c4a882", textTransform: "uppercase" }}>
               {attending === "Joyfully Accepts"
                 ? `${name} · ${guests} guest${guests !== "1" ? "s" : ""} · 31 May 2026`
                 : `${name} · We pray for your blessings`}
@@ -418,7 +416,7 @@ const RSVPSection = () => {
         )}
 
         <div style={{ marginTop: 60, borderTop: "1px solid rgba(196,168,130,0.2)", paddingTop: 30 }}>
-          <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 12, letterSpacing: "0.25em", color: "rgba(196,168,130,0.5)" }}>
+          <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, letterSpacing: "0.25em", color: "rgba(196,168,130,0.5)" }}>
             Jannat &amp; Aqib · 31 May 2026 · Karachi
           </p>
         </div>
@@ -431,7 +429,7 @@ const RSVPSection = () => {
    MAIN APP
 ════════════════════════════════════════ */
 export default function App() {
-  const [phase, setPhase]             = useState("cover"); // cover | opening | invite
+  const [phase, setPhase]               = useState("cover");
   const [envelopeOpen, setEnvelopeOpen] = useState(false);
   const { d, h, m, s } = useCountdown();
 
@@ -467,7 +465,6 @@ export default function App() {
           opacity: phase === "opening" ? 0 : 1,
           transition: phase === "opening" ? "opacity 0.9s ease" : "none",
         }}>
-          {/* Background image */}
           <div style={{
             position: "absolute", inset: 0,
             backgroundImage: "url('/page1.jpg')",
@@ -481,17 +478,17 @@ export default function App() {
             {/* Bismillah */}
             <p style={{
               fontFamily: "'IM Fell English', serif",
-              fontSize: "clamp(9px,1.5vw,11px)", letterSpacing: "0.2em",
+              fontSize: "clamp(11px,1.8vw,13px)", letterSpacing: "0.2em",
               color: "#977E62", textTransform: "uppercase",
               animation: "fadeInUp 1s ease 0.3s both", marginBottom: 20,
             }}>
               In the Name of Allah (SWT) the Most Beneficent
             </p>
 
-            {/* Jannat & Aqib — AmoresaAged */}
+            {/* Jannat & Aqib */}
             <h1 style={{
               fontFamily: "'AmoresaAged', serif",
-              fontSize: "clamp(36px,8vw,72px)",
+              fontSize: "clamp(42px,9vw,82px)",
               color: "#3d2a1e",
               lineHeight: 1.05,
               fontWeight: 400,
@@ -522,13 +519,12 @@ export default function App() {
                 alt="Vintage Envelope"
                 style={{ width: "100%", display: "block" }}
               />
-              {/* J & A monogram overlay — Symphony font */}
               <div style={{
                 position: "absolute",
                 top: "52%", left: "50%",
                 transform: "translate(-50%, -50%)",
                 fontFamily: "'Symphony', serif",
-                fontSize: "clamp(28px,7vw,52px)",
+                fontSize: "clamp(22px,5vw,38px)",
                 color: "#5c3d2e",
                 opacity: envelopeOpen ? 0 : 0.85,
                 transition: "opacity 0.4s ease",
@@ -544,7 +540,7 @@ export default function App() {
             <p style={{
               fontFamily: "'IM Fell English', serif",
               fontStyle: "italic",
-              fontSize: "clamp(11px,2vw,14px)", letterSpacing: "0.25em",
+              fontSize: "clamp(13px,2.2vw,16px)", letterSpacing: "0.25em",
               color: "#FFFFFF", textTransform: "uppercase",
               animation: "fadeInUp 1s ease 1.8s both, shimmer 2.5s ease 2.8s infinite",
             }}>
@@ -571,7 +567,6 @@ export default function App() {
             <div style={{ position: "relative", zIndex: 2, display: "flex", flexDirection: "column", alignItems: "center" }}>
               <ArchFrame>
                 <div style={{ textAlign: "center" }}>
-                  {/* Save our Date — Symphony */}
                   <h2 style={{
                     fontFamily: "'Symphony', serif",
                     fontSize: "clamp(44px,10vw,82px)",
@@ -580,29 +575,27 @@ export default function App() {
                     Save our<br />Date
                   </h2>
                   <div style={{ height: "0.5px", background: "linear-gradient(90deg,transparent,#c4a882,transparent)", margin: "0 auto 20px", width: "70%" }} />
-                  {/* Jannat & Aqib — IM Fell */}
                   <p style={{
                     fontFamily: "'IM Fell English', serif",
                     fontStyle: "italic",
-                    fontSize: "clamp(16px,3vw,22px)", letterSpacing: "0.2em",
+                    fontSize: "clamp(18px,3.5vw,26px)", letterSpacing: "0.2em",
                     color: "#7a5a4a", marginBottom: 14,
                   }}>
                     Jannat &amp; Aqib
                   </p>
-                  {/* Date — IM Fell, bigger */}
                   <p style={{
                     fontFamily: "'IM Fell English', serif",
-                    fontSize: "clamp(20px,4vw,28px)",
+                    fontSize: "clamp(24px,4.5vw,32px)",
                     color: "#5c3d2e", fontWeight: 400, letterSpacing: "0.1em",
                   }}>
-                    31st May 2026 
+                    31st May 2026
                   </p>
                 </div>
               </ArchFrame>
 
               {/* Scroll cue */}
               <div style={{ marginTop: 48, display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
-                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, letterSpacing: "0.45em", color: "#c4a882", textTransform: "uppercase" }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16, letterSpacing: "0.45em", color: "#c4a882", textTransform: "uppercase" }}>
                   Scroll
                 </p>
                 <div style={{ width: 1, height: 50, background: "linear-gradient(180deg, #c4a882, transparent)", animation: "scrollBounce 2s ease infinite" }} />
@@ -631,7 +624,7 @@ export default function App() {
 
               <p style={{
                 fontFamily: "'IM Fell English', serif", fontStyle: "italic",
-                fontSize: "clamp(10px,2vw,15px)", lineHeight: 2,
+                fontSize: "clamp(13px,2vw,15px)", lineHeight: 2,
                 color: "#7a5a4a", maxWidth: 500, margin: "0 auto 40px",
               }}>
                 May the Almighty grant this couple all the success in their marriage and bestow upon them good Health, Wealth, Imaan and Guidance to follow the straight path as shown. Ameen.
@@ -639,35 +632,35 @@ export default function App() {
 
               <div style={{ height: "0.5px", background: "linear-gradient(90deg,transparent,#c4a882,transparent)", marginBottom: 36 }} />
 
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(12px,2vw,14px)", letterSpacing: "0.3em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2vw,15px)", letterSpacing: "0.3em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
                 The Family Members of
               </p>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2.2vw,17px)", color: "#7a5a4a", marginBottom: 28 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(15px,2.4vw,19px)", color: "#7a5a4a", marginBottom: 16 }}>
                 (Late) Mr. &amp; Mrs. Sheikh Muhammad Ramzan
               </p>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2vw,15px)", color: "#7a5a4a", lineHeight: 1.9, marginBottom: 28, maxWidth: 480, margin: "0 auto 28px" }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2.2vw,16px)", color: "#7a5a4a", lineHeight: 1.9, maxWidth: 480, margin: "0 auto 28px" }}>
                 would like to enhance the beauty of the occasion by inviting you at the{" "}
                 <span style={{ fontWeight: 700, fontStyle: "normal" }}>Wedding Ceremony</span>
                 {" "}of their beloved daughter
               </p>
 
-              {/* Jannat — Symphony only for the name */}
+              {/* Jannat — Symphony */}
               <h3 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(40px,9vw,72px)", color: "#5c3d2e", lineHeight: 1.1, marginBottom: 6 }}>
                 Jannat Ali
               </h3>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2vw,15px)", color: "#8a6040", marginBottom: 32 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2.2vw,16px)", color: "#8a6040", fontWeight: 500, marginBottom: 32 }}>
                 D/o. Mr. &amp; Mrs. Muhammad Ali Sheikh
               </p>
 
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2vw,16px)", color: "#c4a882", marginBottom: 24, letterSpacing: "0.3em" }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2vw,17px)", color: "#c4a882", marginBottom: 24, letterSpacing: "0.3em" }}>
                 — with —
               </p>
 
-              {/* Aqib — Symphony only for the name */}
+              {/* Aqib — Symphony */}
               <h3 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(40px,9vw,72px)", color: "#5c3d2e", lineHeight: 1.1, marginBottom: 6 }}>
                 Aqib Nawaz
               </h3>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2vw,15px)", color: "#8a6040" }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2.2vw,16px)", color: "#8a6040", fontWeight: 500 }}>
                 S/o. Mr. &amp; Mrs. Nawaz Ahmed
               </p>
             </Section>
@@ -682,10 +675,10 @@ export default function App() {
             <div style={{ position: "absolute", inset: 0, backgroundImage: "url('/page4.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
             <div style={{ position: "absolute", inset: 0, background: "rgba(15,8,3,0.6)" }} />
             <Section style={{ position: "relative", zIndex: 2, textAlign: "center", width: "100%" }}>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(11px,2vw,13px)", letterSpacing: "0.45em", color: "#c4a882", textTransform: "uppercase", marginBottom: 14 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2.2vw,15px)", letterSpacing: "0.45em", color: "#c4a882", textTransform: "uppercase", marginBottom: 14 }}>
                 The Celebration Begins In
               </p>
-              <h2 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(28px,6vw,48px)", color: "#f8f1e8", marginBottom: 52, fontWeight: 400 }}>
+              <h2 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(32px,6.5vw,52px)", color: "#f8f1e8", marginBottom: 52, fontWeight: 400 }}>
                 Counting Down to Forever
               </h2>
 
@@ -701,7 +694,7 @@ export default function App() {
 
               <div style={{ marginTop: 60, display: "flex", alignItems: "center", gap: 16, justifyContent: "center" }}>
                 <div style={{ height: "0.5px", width: 60, background: "linear-gradient(90deg, transparent, #c4a882)" }} />
-                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 13, letterSpacing: "0.3em", color: "#c4a882" }}>31 May 2026</p>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 15, letterSpacing: "0.3em", color: "#c4a882" }}>31 May 2026</p>
                 <div style={{ height: "0.5px", width: 60, background: "linear-gradient(90deg, #c4a882, transparent)" }} />
               </div>
             </Section>
@@ -716,7 +709,7 @@ export default function App() {
             <div style={{ position: "absolute", inset: 0, backgroundImage: "url('/page4.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
             <div style={{ position: "absolute", inset: 0, background: "rgba(248,241,232,0.72)" }} />
             <Section style={{ position: "relative", zIndex: 2, textAlign: "center" }}>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 12, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 32 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 32 }}>
                 Mark Your Calendar
               </p>
               <div style={{
@@ -734,10 +727,9 @@ export default function App() {
                   { bottom: -1, right: -1, borderBottom: "2px solid #b07a6e", borderRight: "2px solid #b07a6e" },
                 ].map((s, i) => <div key={i} style={{ position: "absolute", width: 24, height: 24, ...s }} />)}
 
-                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(10px,2vw,13px)", letterSpacing: "0.45em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(11px,2vw,14px)", letterSpacing: "0.45em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
                   Sunday
                 </p>
-                {/* 31st — AmoresaAged */}
                 <div style={{
                   fontFamily: "'AmoresaAged', serif",
                   fontSize: "clamp(80px,20vw,160px)",
@@ -745,10 +737,10 @@ export default function App() {
                 }}>
                   31
                 </div>
-                <p style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(16px,3.5vw,26px)", letterSpacing: "0.4em", color: "#b07a6e", textTransform: "uppercase", marginTop: 12, marginBottom: 4 }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(18px,3.5vw,28px)", letterSpacing: "0.4em", color: "#b07a6e", textTransform: "uppercase", marginTop: 12, marginBottom: 4 }}>
                   May
                 </p>
-                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(13px,2vw,16px)", color: "#8a6040", opacity: 0.7, letterSpacing: "0.2em" }}>
+                <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2vw,18px)", color: "#8a6040", opacity: 0.7, letterSpacing: "0.2em" }}>
                   2026
                 </p>
               </div>
@@ -764,18 +756,18 @@ export default function App() {
             <div style={{ position: "absolute", inset: 0, backgroundImage: "url('/page5.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
             <div style={{ position: "absolute", inset: 0, background: "rgba(15,8,3,0.55)" }} />
             <Section style={{ position: "relative", zIndex: 2, textAlign: "center", maxWidth: 560, width: "100%" }}>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 12, letterSpacing: "0.5em", color: "#c4a882", textTransform: "uppercase", marginBottom: 16 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16, letterSpacing: "0.5em", color: "#c4a882", textTransform: "uppercase", marginBottom: 16 }}>
                 Location
               </p>
-              <svg viewBox="0 0 40 50" style={{ width: 32, opacity: 0.7, marginBottom: 20 }} xmlns="http://www.w3.org/2000/svg">
+              <svg viewBox="0 0 40 50" style={{ width: 36, opacity: 0.7, marginBottom: 20 }} xmlns="http://www.w3.org/2000/svg">
                 <path d="M20,2 C11,2 4,9 4,18 C4,30 20,48 20,48 C20,48 36,30 36,18 C36,9 29,2 20,2 Z" fill="none" stroke="#c4a882" strokeWidth="1.5" />
                 <circle cx="20" cy="18" r="6" fill="none" stroke="#c4a882" strokeWidth="1.5" />
               </svg>
-              <h2 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(30px,7vw,56px)", color: "#f8f1e8", lineHeight: 1.2, marginBottom: 12 }}>
+              <h2 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(32px,7vw,58px)", color: "#f8f1e8", lineHeight: 1.2, marginBottom: 12 }}>
                 Lawyer's Club<br />Banquet 'A'
               </h2>
               <div style={{ height: "0.5px", background: "linear-gradient(90deg,transparent,#c4a882,transparent)", margin: "16px auto", width: "60%" }} />
-              <p style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(11px,2vw,13px)", letterSpacing: "0.25em", color: "#c4a882", marginBottom: 36 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontSize: "clamp(13px,2.2vw,15px)", letterSpacing: "0.25em", color: "#c4a882", marginBottom: 36 }}>
                 11-A, Block 2 Clifton, Karachi
               </p>
               <a
@@ -786,7 +778,7 @@ export default function App() {
                   display: "inline-block", padding: "14px 40px",
                   border: "1px solid rgba(196,168,130,0.6)",
                   color: "#c4a882",
-                  fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 14,
+                  fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16,
                   letterSpacing: "0.2em", textDecoration: "none",
                   background: "rgba(248,241,232,0.06)", backdropFilter: "blur(8px)",
                   transition: "all 0.4s ease",
@@ -808,20 +800,20 @@ export default function App() {
             <div style={{ position: "absolute", inset: 0, backgroundImage: "url('/page3.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
             <div style={{ position: "absolute", inset: 0, background: "rgba(248,241,232,0.75)" }} />
             <Section style={{ position: "relative", zIndex: 2, maxWidth: 640, width: "100%", textAlign: "center" }}>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 12, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase" }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase" }}>
                 The Celebration
               </p>
-              <h2 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(36px,8vw,68px)", color: "#5c3d2e", margin: "10px 0 20px" }}>
+              <h2 style={{ fontFamily: "'Symphony', serif", fontSize: "clamp(40px,8vw,72px)", color: "#5c3d2e", margin: "10px 0 20px" }}>
                 Baraat
               </h2>
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(14px,2.2vw,17px)", lineHeight: 2, color: "#7a5a4a", maxWidth: 500, margin: "0 auto 60px" }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(15px,2.4vw,18px)", lineHeight: 2, color: "#7a5a4a", maxWidth: 500, margin: "0 auto 60px" }}>
                 The Baraat will be welcomed with the solemnization of the Nikkah, binding two hearts in faith and love. The evening will draw to a close with the Rukhsati, as Jannat begins her new journey surrounded by the prayers of her loved ones.
               </p>
 
-              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 12, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
+              <p style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: 16, letterSpacing: "0.5em", color: "#b07a6e", textTransform: "uppercase", marginBottom: 8 }}>
                 Programme
               </p>
-              <h3 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(22px,4vw,34px)", color: "#5c3d2e", marginBottom: 44 }}>
+              <h3 style={{ fontFamily: "'IM Fell English', serif", fontStyle: "italic", fontSize: "clamp(24px,4vw,36px)", color: "#5c3d2e", marginBottom: 44 }}>
                 Evening Schedule
               </h3>
 
